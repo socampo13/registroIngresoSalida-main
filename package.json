@@ -1,0 +1,19 @@
+{
+  "name": "registro-personas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "![1](https://github.com/user-attachments/assets/6d0ff80c-e963-49c0-bb77-2ad5759dcb47)",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "socket.io": "^4.8.0",
+    "sqlite3": "^5.1.7"
+  }
+}

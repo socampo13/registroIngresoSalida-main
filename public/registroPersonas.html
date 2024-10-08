@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registroPersonas.css">
+  <title>Registro de Personas</title>
+  
+</head>
+<body>
+  <h1>Registro de Horarios</h1>
+
+  <form id="registroForm">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+    <br>
+    <button type="submit">Iniciar/Terminar horario</button>
+  </form>
+
+  <h2>Horas Registradas</h2>
+  <ul id="listaPersonas"></ul>
+
+  <script src="registroPersonas.js"></script>
+  <script src="socket.io.js"></script>
+
+</body>
+</html>
